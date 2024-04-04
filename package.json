@@ -1,0 +1,34 @@
+{
+  "name": "express-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "demo": "tsx watch index.ts",
+    "problems:caching": "tsx watch problems/caching.ts",
+    "problems:rate-limit": "tsx watch problems/rateLimiting.ts",
+    "problems:pubsub": "tsx watch problems/pubSub.ts",
+    "problems:findby": "tsx watch problems/findby.ts",
+    "problems:transactions": "tsx watch problems/transactions.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.4",
+    "@upstash/ratelimit": "^1.0.3",
+    "@upstash/redis": "^1.29.0",
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "ioredis": "^5.3.2",
+    "rimraf": "^3.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/mime": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "nodemon": "^2.0.19"
+  }
+}
